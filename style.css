@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.medium{
+    font-weight: medium;
+}
+
+/* header */
+.header{
+    height: 958px;
+    background-image: url(image/header-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.headerContent{
+    margin-top: 356px;
+    margin-bottom: 256px;
+}
+
+.headerContent span{
+    font-size: 24px;
+    line-height: 42px;
+    color: #ffffff;
+}
+
+.headerContent h1{
+    font-size: 80px;
+    color: #ffffff;
+    margin-bottom: 32px;
+
+}
+
+.headerContent p{
+    font-size: 24px;
+    line-height: 42px;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+
+.socialMedia img{
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+}
+
+/* h2 style */
+h2{
+    font-size: 64px;
+    line-height: 75px;
+    font-style: italic;
+    font-weight: medium;
+}
+
+/* about */
+.about{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    display: block;
+    align-items: center;
+}
+
+.about img{
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.about ul li{
+    list-style: none;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.about hr{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    width: 384px;
+}
+
+.aboutExp{
+    display: flex;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 56px;
+}
+
+.aboutExp li{
+    padding-left: 54px;
+    padding-bottom: 32px;
+}
+
+.aboutExp li:before{
+    content:'';
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #891818;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -36px;
+}
+
+/* my brand */
+.brand{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 160px;
+}
+
+.brand h2{
+    margin-bottom: 16px;
+    line-height: 75px;
+}
+
+.brandContent{
+    margin-bottom: 48px;
+}
+
+.brandContent .item1{
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 32px;
+}
+
+.brandContent .item2{
+    font-size: 20px;
+    line-height: 42px;
+}
+
+.brandImage{
+    width: 1200px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.brandImage .brandImg1{
+    margin-bottom: 40px;
+}
+
+/* works */
+.work{
+    background-image: url(image/work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+    text-align: center;
+    padding-bottom: 162px;
+}
+
+.workContent{
+    margin-top: 64px;
+}
+
+.work h2{
+    margin-bottom: 24px;
+}
+
+.work p{
+    font-size: 20px;
+    line-height: 42px;
+    margin-bottom: 48px;
+}
+
+.work ul{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    list-style: none;
+    color: #ffffff;
+}
+
+/* footer */
+.footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 64px 0;
+}
+
+.footer h2{
+    color: #ffffff;
+    padding-bottom: 16px;
+}
+
+.footer p{
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 16px;
+}
